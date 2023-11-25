@@ -1,0 +1,181 @@
+  <!DOCTYPE html>
+  <html lang="en">
+
+    <head>
+      <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Month', 'Positive', 'Negative'],
+          ['August',  1000,      400],
+          ['September',  1170,      460],
+          ['October',  660,       1120],
+          ['November',  1030,      540]
+        ]);
+
+        var options = {
+          title: 'AUGUST TO NOVEMBER MALARIA REPORT (GOASO, MIM, HWIDIEM AND TEPA)',
+          hAxis: {title: 'Months',  titleTextStyle: {color: '#333'}},
+          vAxis: {minValue: 0}
+        };
+
+        var chart = new google.visualization.AreaChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['GLOBAL HEALTH DISEASES', 'NEWLY CONFIRMED CASES'],
+          ['TUBERCULOSIS',     654],
+          ['H.I.V',      332],
+          ['MALARIA',  7985],
+          
+        ]);
+
+        var options = {
+          title: 'NEWLY CONFIRMED CASES OF THE THREE GLOBAL PUBLIC HEALTH CHALLENGE',
+          pieHole: 0.4,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+        chart.draw(data, options);
+      }
+    </script>
+      <title>
+        AHAFO REGIONAL LABORATORY RECORDS SYSTEM
+      </title>
+      <div>
+        <link rel = "stylesheet" href="style.css">
+    </head>
+          
+    <body>
+     
+      <div class="main">
+
+        <div class="navbar">
+        
+        <div class="logo">
+        <img src="img/lgo.ico">
+        <div class="paragraph">
+        </div>
+        </div>
+
+        <nav>
+          <div class="menu">
+            <ul>
+              <li> <a href ="#">HOME</a></li>
+              <li> <a href ="#">ABOUT</a></li>
+              <li> <a href ="#">SERVICES</a></li>
+              <li> <a href ="#">LABORATORY</a></li>
+              <li> <a href ="#">CONTACT</a></li>
+            </ul>
+          </div>
+        </nav>
+          <input class="search-bar" type class="text" placeholder="search">
+          <a href="#"> <button class="btn"> search </button></a>
+          
+          
+          </p>
+            <h1 class="website-name">INTER LABORATORY DATA RECORDS</h1>
+           
+                 
+            <p class="paragraph">
+              <i>Electronic Record system for<b> Ahafo Regional laboratory data collection</b> </i>
+                  
+            </p>
+               
+
+
+          <div class="slide">
+            <img src="img/top img.webp" alt="">
+        </div>
+
+        <p class="operation">
+          Keeping health records safe and secured
+        </p>
+        <div id="chart_div" style="width: 100%; height: 500px;"></div>
+        <div id="donutchart" style="width: 900px; height: 500px;"></div>
+        <article>
+          <h1>HOW TO INTER-CONNECT LABORATORIES</h1>
+          <p>The Laboratory Electronic Record System (LERS) plays a crucial role in modern laboratory management, 
+            offering several benefits that contribute to efficiency, accuracy, compliance, and overall improvement in laboratory processes. 
+            Here are some key reasons highlighting the importance of implementing a Laboratory Electronic Record System:
+
+          </p>
+          
+          <!-- Aside content -->
+          <aside>
+              <h2>IMPORTANCE</h2>
+              <p>Data Accuracy and Integrity:
+
+                <b>ELRS</b> helps ensure the accuracy and integrity of laboratory data by minimizing the potential for manual errors associated with paper-based systems. Electronic records reduce the risk of transcription errors and enhance the reliability of data.
+                Efficient Data Management:
+                
+                Electronic record systems facilitate efficient data management by providing a centralized platform for storing, retrieving, and analyzing laboratory data. This helps streamline workflows, reduce redundancy, and improve overall data accessibility.
+                Real-time Data Access:
+                
+                LERS enables real-time access to laboratory data, allowing researchers, clinicians, and authorized personnel to retrieve information promptly. This timely access is essential for decision-making, research, and patient care.
+                Enhanced Collaboration:
+                
+                <br>Electronic record systems support collaboration among laboratory staff and other healthcare professionals. Users can easily share data, reports, and findings, fostering a collaborative environment for research and diagnostics.
+                Improved Regulatory Compliance:
+                
+                Many laboratories are subject to regulatory requirements and quality standards. LERS helps laboratories comply with these standards by providing tools for data traceability, audit trails, and electronic signatures, making it easier to demonstrate adherence to regulatory guidelines.
+                Sample and Inventory Management:
+                
+                LERS often includes features for sample tracking and inventory management. This helps laboratories monitor the lifecycle of samples, track their movement, and manage inventory levels efficiently.</br>
+                Workflow Automation:
+                
+                Automation of laboratory workflows is simplified through LERS. This includes automating repetitive tasks, tracking sample progress, and generating reports. Automation improves efficiency, reduces turnaround times, and minimizes the potential for human errors.
+                Data Security and Confidentiality:
+                
+                LERS incorporates security measures to protect sensitive laboratory data. Access controls, encryption, and audit trails help ensure that only authorized personnel have access to specific information, maintaining confidentiality and data security.
+                Cost Reduction:
+                
+                While the initial implementation of an electronic record system may incur costs, in the long run, it can contribute to cost reduction. Efficiency gains, reduced paperwork, and streamlined processes lead to resource savings.
+                Scalability and Flexibility:
+                
+                LERS can scale to accommodate the growing needs of a laboratory. It provides flexibility to adapt to changes in technology, regulations, and laboratory requirements, ensuring long-term viability.
+                Data Analytics and Reporting:
+                
+                Electronic record systems often include analytical tools that allow laboratories to derive meaningful insights from their data. This supports data-driven decision-making and enhances the overall value of laboratory information.
+                Integration with Other Systems:
+                
+                LERS can integrate with other healthcare systems, such as Electronic Health Records (EHRs), to provide a seamless flow of information between laboratory and clinical settings. This integration enhances patient care coordination and data continuity.
+                In summary, the Laboratory Electronic Record System is instrumental in promoting accuracy, efficiency, compliance, and collaboration within laboratories, ultimately contributing to improved patient care, research outcomes, and overall operational effectiveness.
+                
+                
+                
+                
+                
+                </p>
+          </aside>
+      </article>
+        <button class="contact">
+          CONTACT
+        </button>
+
+        <button class="location">
+          LOCATION
+        </button>
+
+        <button class="mail">
+          EMAIL
+        </button>
+        <footer class="footer">
+          <p>footer-ending </p>
+        </footer>
+        <footer class="footer-end">
+          copyright (c) @zigatodesignx 2023
+        </footer>
+        
+       
+    </body>
+  </html>
