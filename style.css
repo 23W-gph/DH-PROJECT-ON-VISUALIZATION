@@ -143,6 +143,12 @@
                 margin-left: 0px;
                 margin-top: 0px;
             }
+            aside {
+                width: 100%;
+                max-width: 100px;
+                min-width: 100px;
+                float: right;
+            }
             .footer-end{
                 text-align: center;
                 background-color: black;
